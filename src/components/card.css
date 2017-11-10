@@ -1,0 +1,30 @@
+.card-container {
+  cursor: pointer;
+  height: 200px;
+  width: 400px;
+  perspective: 800px;
+  position: relative;
+  margin: auto;
+  transition: ease-in;
+}
+
+.card {
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  border: 1px solid #300;
+}
+
+.answer{
+  text-align: center;
+  color: #333;
+  font-size: 2em;
+  padding-top: 5%;
+}
+
+.question{
+  text-align: center;
+  color: #333;
+  font-size: 2em;
+  padding: 5%;
+}
